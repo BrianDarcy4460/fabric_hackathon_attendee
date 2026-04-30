@@ -8,8 +8,9 @@ Welcome to the **MS Azure Days — Fabric Hackathon** attendee repository! This 
 
 ```
 ├── Documents/       # Hackathon guides, architecture overviews, and goal instructions
-├── DataFiles/       # Datasets used throughout the hackathon (coming soon)
-└── Scripts/         # Solution scripts and notebooks (coming soon)
+├── DataFiles/       # Datasets used throughout the hackathon
+├── Scripts/         # Solution scripts and notebooks
+└── Videos/          # Video walkthroughs and demos
 ```
 
 ---
@@ -30,10 +31,10 @@ All hackathon guides are located in the [`Documents/`](Documents/) folder. Here'
 |----------|-------------|
 | [Intro](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.pdf) | Hackathon overview, prerequisites, and setup |
 | [Architecture](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Architecture.pdf) | Solution architecture and design reference |
-| [Goal 1](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.pdf) | First hackathon challenge |
-| [Goal 2](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.pdf) | Second hackathon challenge |
-| [Goal 3](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.pdf) | Third hackathon challenge |
-| [Goal 4](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.pdf) | Fourth hackathon challenge |
+| [Goal 1](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.md) | Ingest data from two sources into Fabric Lakehouse |
+| [Goal 2](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md) | Transform ingested data for analytics |
+| [Goal 3](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md) | Use Azure AI to discover intelligence in the data |
+| [Goal 4](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.md) | Model the data and build a report or dashboard |
 
 ### Databricks Hackathon
 
@@ -66,6 +67,7 @@ The `Scripts/` folder will contain solution scripts, notebooks, and code artifac
 - Access to a **Microsoft Fabric** workspace
 - A modern web browser
 - Review the [Intro document](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.pdf) for the full list of prerequisites and setup steps
+- Check the [Videos](Videos/) folder for walkthrough demos
 
 ---
 

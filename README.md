@@ -17,7 +17,7 @@ Welcome to the **MS Azure Days — Fabric Hackathon** attendee repository! This 
 
 ## Getting Started
 
-1. **Read the Introduction** — Start with the [Intro](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.pdf) to understand the hackathon format, rules, and expectations.
+1. **Read the Introduction** — Start with the [Intro](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.md) to understand the hackathon format, rules, and expectations.
 2. **Review the Architecture** — Check the [Architecture Overview](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Architecture.pdf) to understand the end-to-end solution design.
 3. **Work through the Goals** — Tackle each goal sequentially (or as directed by your facilitator).
 
@@ -29,7 +29,7 @@ All hackathon guides are located in the [`Documents/`](Documents/) folder. Here'
 
 | Document | Description |
 |----------|-------------|
-| [Intro](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.pdf) | Hackathon overview, prerequisites, and setup |
+| [Intro](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.md) | Hackathon overview, prerequisites, and setup |
 | [Architecture](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Architecture.pdf) | Solution architecture and design reference |
 | [Goal 1](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.md) | Ingest data from two sources into Fabric Lakehouse |
 | [Goal 2](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md) | Transform ingested data for analytics |
@@ -66,7 +66,7 @@ The `Scripts/` folder will contain solution scripts, notebooks, and code artifac
 
 - Access to a **Microsoft Fabric** workspace
 - A modern web browser
-- Review the [Intro document](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.pdf) for the full list of prerequisites and setup steps
+- Review the [Intro document](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.md) for the full list of prerequisites and setup steps
 - Check the [Videos](Videos/) folder for walkthrough demos
 
 ---

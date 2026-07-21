@@ -1,21 +1,25 @@
 ---
 layout: page
-title: Goal 2 - Transform Your Ingested Data for Analytics
+title: Goal 2 - Transform Data into the Silver Lakehouse
 ---
 
-# Transform Your Ingested Data for Analytics (2 hours)
+# Transform Data into the Silver Lakehouse (2 hours)
 
-Once your data is in Fabric, you have multiple options to shape it into something useful. Pick the approach that best fits your workflow or challenge.
+Now that your raw data has landed in the **Bronze** layer, transform it into a clean, conformed **Silver Lakehouse**. In this goal you'll use **Notebooks** to shape the raw sources into analytics-ready Delta tables.
 
-## Transformation Options
+## What to Do
 
-- Use a notebook to clean, prep, or enrich your data.
-- Build a workflow to automate transformations.
-- Write SQL to transform data directly in your Lakehouse.
-- Create views to simplify or structure your datasets.
-- Use any other Fabric feature that fits your scenario.
+- Create (or attach) a **SilverLakehouse** to hold your transformed tables.
+- Use **Notebooks** (Spark / PySpark) to read from your Bronze sources and clean, conform, and reshape the data.
+- Standardize column names, enforce primary keys, and remove duplicates.
+- Flatten nested or semi-structured fields (for example, JSON from a Cosmos mirror) into tidy tables.
+- Write each result as a managed **Delta** table so it is idempotent and re-runnable.
 
-Fabric gives you the flexibility to transform data however you prefer.
+While Notebooks are the focus here, Fabric also supports Dataflows, SQL, and views — the reference material below covers those options too.
+
+> **Example notebooks:** See [`Notebooks/`](../Notebooks/) for two Silver examples —
+> `1 - Normalize SIS to Silver Lakehouse` (Azure SQL → Silver) and
+> `2 - Transform Grad Exams to Silver Lakehouse` (Cosmos → Silver).
 
 ## Notes and References
 

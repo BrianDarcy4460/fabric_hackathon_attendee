@@ -1,20 +1,25 @@
 ---
 layout: page
-title: Goal 4 - Model the Data and Build a Report or Dashboard
+title: Goal 4 - Build the Gold Lakehouse and Serve It
 ---
 
-# Model the Data and Build a Report or Dashboard (1 hour)
+# Build the Gold Lakehouse and Serve It (2 hours)
 
-Now that your data is ingested, transformed, and enriched with Azure AI, it is time to pull it all together and tell the story.
-
-Your goal in this section is to model the data and build a report or dashboard that showcases the insights you uncovered.
+Now that your data is in **Silver** and enriched with AI, build the **Gold Lakehouse** — the curated, business-ready layer — and serve it to consumers. In this goal you'll create **Materialized Lake Views**, a **Semantic Model**, and feed them into **Data Agents** and an **Ontology**.
 
 ## What to Do
 
-- Combine your tables into a clean data model.
-- Create relationships between your Lakehouse tables and views.
-- Add calculated columns or measures where needed.
-- Build a Power BI report or real-time dashboard to highlight your findings.
+- Create a **GoldLakehouse** and surface your Silver tables into it (OneLake shortcuts, zero-copy).
+- Build **Materialized Lake Views (MLVs)** — pre-computed, physically stored Delta tables that Fabric refreshes in dependency order. Use a two-tier design: wide foundational marts, then thin business-question answers on top.
+- Build a **Direct Lake Semantic Model** over the Gold marts so reports read live Lakehouse data with no import or refresh.
+- Feed the model into a **Data Agent** for natural-language Q&A over your curated data.
+- Connect entities and relationships into an **Ontology** to describe your business domain.
+
+> **Example notebook:** See [`Notebooks/`](../Notebooks/) —
+> `Gold - Business Marts (MLV)` builds four Tier-1 wide marts and six Tier-2 business-question
+> answers as Materialized Lake Views, ready for a Direct Lake semantic model and Data Agents.
+
+You can still finish by building a **Power BI report or dashboard** on top of the semantic model — the reference material below covers modeling, DAX, and reporting.
 
 ## Ideas and Suggestions
 

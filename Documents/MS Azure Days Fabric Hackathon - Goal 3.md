@@ -1,27 +1,29 @@
 ---
 layout: page
-title: Goal 3 - Use Azure AI to Discover Intelligence in the Data
+title: Goal 3 - Use AI to Discover Intelligence in Semi-Structured Data
 ---
 
-# Use Azure AI to Discover Intelligence in the Data (1 hour)
+# Use AI to Discover Intelligence in Semi-Structured Data (2 hours)
 
-In this part of the hackathon, use Azure AI to uncover insights, patterns, or predictions from the data you ingested and transformed.
+In this goal, point AI at your **semi-structured content** — free-text files such as course reviews, notes, or survey responses — to gather intelligence your project can use. You'll turn unstructured text into structured, analytics-ready signals in your Silver Lakehouse.
 
-You can approach this however you want. The goal is to add intelligence to your dataset using any Azure AI capability.
+You can approach this however you want. The goal is to add intelligence to your dataset using any Azure AI or Fabric AI capability.
 
-## Ways You Can Add Intelligence
+## What to Do
 
-- Run text analytics: Use Azure AI Language to extract key phrases, detect sentiment, or identify named entities (people, places, products, and so on).
-- Classify or tag data: Use a prebuilt model to categorize text, label documents, or assign topics.
-- Summarize content: Feed your dataset into Azure OpenAI (or the Fabric Prompt Flow experience) to summarize reports, logs, or long text fields.
-- Build a quick prediction model: Use AutoML in Fabric or Azure ML to predict churn, demand, volume, or yes/no outcomes.
-- Generate insights with natural language: Let users ask questions about data and get plain-English answers using Azure OpenAI.
-- Detect anomalies: Use Azure AI Anomaly Detector to find unusual spikes, drops, or outliers in time-series data.
-- Enrich structured data: Use an LLM to rewrite messy text fields, normalize categories, or create derived columns.
-- Create embeddings and similarity search: Generate embeddings with Azure OpenAI and find similar items, documents, or records.
-- Analyze customer sentiment: If your data includes comments or notes, measure positive, negative, or neutral trends.
-- Build a simple chatbot with Data Agent: Use your ingested dataset as context and build a Data Agent in Fabric.
-- Enhance with AI Foundry: Connect your Data Agent in Azure AI Foundry as part of an agentic solution.
+- Read your raw semi-structured files (for example, JSON/Parquet review text landed in Bronze).
+- Use AI to **derive signals** from the text — sentiment, summaries, classifications, topic themes, or entities.
+- Consider **privacy**: use an LLM to anonymize or de-identify free text before you persist it.
+- Write the AI-derived signals back to a **Silver** table so downstream goals (modeling, reporting, Data Agents) can use them.
+
+## Two AI Paths (both shown in the example notebooks)
+
+- **Built-in Fabric AI functions** — `ai.analyze_sentiment`, `ai.summarize`, `ai.classify`, `ai.extract` run directly in a notebook with no API key.
+- **Azure AI Foundry** — call a deployed chat model (for example, to anonymize/rewrite text) using an endpoint and key managed by a Fabric Variable Library.
+
+> **Example notebooks:** See [`Notebooks/`](../Notebooks/) —
+> `4 - Analyze CR with Built-in AI` (Fabric AI functions over review text) and
+> `3 - Anonymize Course reviews with Foundry AI` (Azure AI Foundry de-identification).
 
 ## Hackathon Note
 

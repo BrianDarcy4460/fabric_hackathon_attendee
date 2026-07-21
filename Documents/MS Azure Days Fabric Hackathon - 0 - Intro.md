@@ -19,7 +19,7 @@ Our coaches will be moving around the room all day. If you get stuck, raise your
 
 ## Success Criteria
 
-1. **Connect sources** to ingest and transform data for analytics.
-2. **Use Copilot.** That's it. Use it to build your pipeline, suggest KPIs, help explore your data, or all of the above. Show us how Copilot helped you get insights.
-3. **Use AI to discover insights.** This can be anomaly detection, sentiment analysis, or any AI feature other than Copilot. We want to see your creativity with AI inside Fabric.
-4. **Build a report.** It doesn't have to be fancy—just focus on how you want to display and communicate your data.
+1. **Connect sources** to ingest and transform data for analytics. Build out Bronze Lakehouse
+2. **Transform Data.** Use Notebooks to build out Silver Lakehouse.
+3. **Use AI to discover insights.** This can be anomaly detection, sentiment analysis, or any AI feature other than Copilot. We will transform semistructured files to gather intelegence for our project.
+4. **Build a Gold Lakehouse.** You will build Materlized Views, Semantic Models and feed them into Data Agents an Ontology. 

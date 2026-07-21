@@ -27,22 +27,22 @@ title: MS Azure Days Fabric Hackathon
 
 	<article class="goal-card">
 		<span class="goal-chip">Goal 2</span>
-		<h3>Transform for Analytics</h3>
-		<p>Use SQL, Dataflows, and notebooks to move from raw data to curated data.</p>
+		<h3>Transform into the Silver Lakehouse</h3>
+		<p>Use Notebooks to clean and conform your Bronze data into curated Silver Delta tables.</p>
 		<a class="goal-link" href="{{ "/Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md" | relative_url }}">Open guide</a>
 	</article>
 
 	<article class="goal-card">
 		<span class="goal-chip">Goal 3</span>
-		<h3>Apply Azure AI Intelligence</h3>
-		<p>Add NLP, predictions, anomaly checks, or LLM-driven enrichments.</p>
+		<h3>Discover Intelligence with AI</h3>
+		<p>Turn semi-structured text into signals with Fabric AI functions or Azure AI Foundry.</p>
 		<a class="goal-link" href="{{ "/Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md" | relative_url }}">Open guide</a>
 	</article>
 
 	<article class="goal-card">
 		<span class="goal-chip">Goal 4</span>
-		<h3>Build Report and Dashboard</h3>
-		<p>Model your data and tell the story in Power BI with polished visuals.</p>
+		<h3>Build the Gold Lakehouse</h3>
+		<p>Create Materialized Lake Views, a semantic model, Data Agents, and an Ontology.</p>
 		<a class="goal-link" href="{{ "/Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.md" | relative_url }}">Open guide</a>
 	</article>
 </div>

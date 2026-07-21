@@ -8,6 +8,7 @@ Welcome to the **MS Azure Days — Fabric Hackathon** attendee repository! This 
 
 ```
 ├── Documents/       # Hackathon guides, architecture overviews, and goal instructions
+├── Notebooks/       # Example .ipynb notebooks (Silver, AI, and Gold MLV)
 ├── DataFiles/       # Datasets used throughout the hackathon
 ├── Scripts/         # Solution scripts and notebooks
 └── Videos/          # Video walkthroughs and demos
@@ -31,10 +32,10 @@ All hackathon guides are located in the [`Documents/`](Documents/) folder. Here'
 |----------|-------------|
 | [Intro](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.md) | Hackathon overview, prerequisites, and setup |
 | [Architecture](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Architecture.pdf) | Solution architecture and design reference |
-| [Goal 1](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.md) | Ingest data from two sources into Fabric Lakehouse |
-| [Goal 2](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md) | Transform ingested data for analytics |
-| [Goal 3](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md) | Use Azure AI to discover intelligence in the data |
-| [Goal 4](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.md) | Model the data and build a report or dashboard |
+| [Goal 1](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.md) | Ingest data from two sources into the Bronze Lakehouse |
+| [Goal 2](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md) | Transform data into the Silver Lakehouse using Notebooks |
+| [Goal 3](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md) | Use AI to discover intelligence in semi-structured data |
+| [Goal 4](Documents/MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.md) | Build the Gold Lakehouse (MLVs, semantic model, Data Agents, Ontology) |
 
 ### Databricks Hackathon
 
@@ -59,6 +60,10 @@ The `DataFiles/` folder will contain the datasets required for the hackathon cha
 ## Scripts
 
 The `Scripts/` folder will contain solution scripts, notebooks, and code artifacts developed during the hackathon.
+
+## Notebooks
+
+The [`Notebooks/`](Notebooks/) folder contains ready-to-import example notebooks (`.ipynb`) that demonstrate one complete medallion path — Silver transforms, AI enrichment, and the Gold Materialized Lake Views. See the [Notebooks README](Notebooks/README.md) for details.
 
 ---
 

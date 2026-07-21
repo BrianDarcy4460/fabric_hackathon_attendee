@@ -80,3 +80,7 @@ You can do this entirely in Fabric or call Azure AI services directly. Both are 
 | Fabric | Data Agent as your data tool | [Data Agent concepts](https://learn.microsoft.com/fabric/data-science/concept-data-agent) |
 | Azure AI | Connect to Azure AI Foundry for orchestration | [Use Microsoft Fabric data agent in Azure AI Foundry](https://learn.microsoft.com/azure/foundry/agents/how-to/tools/fabric) |
 
+
+---
+
+**Navigation:** [&larr; Previous: Goal 2 &mdash; Silver Lakehouse](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md) &middot; [Next: Goal 4 &mdash; Gold Lakehouse &rarr;](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.md)

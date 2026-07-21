@@ -10,7 +10,7 @@ Start here before diving into the goals:
 
 | Document | Description |
 |----------|-------------|
-| [Intro](MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.pdf) | Hackathon overview, prerequisites, environment setup, and rules |
+| [Intro](MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Intro.md) | Hackathon overview, prerequisites, environment setup, and rules |
 | [Architecture](MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Architecture.pdf) | End-to-end solution architecture and design reference |
 
 ---
@@ -21,10 +21,12 @@ Complete these challenges in order:
 
 | Goal | Document |
 |------|----------|
-| Goal 1 | [Ingest Data from Two Sources](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.md) |
-| Goal 2 | [Transform Ingested Data for Analytics](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md) |
-| Goal 3 | [Use Azure AI to Discover Intelligence in the Data](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md) |
-| Goal 4 | [Model the Data and Build a Report or Dashboard](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.md) |
+| Goal 1 | [Ingest Data from Two Sources (Bronze)](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.md) |
+| Goal 2 | [Transform Data into the Silver Lakehouse](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md) |
+| Goal 3 | [Use AI to Discover Intelligence in Semi-Structured Data](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md) |
+| Goal 4 | [Build the Gold Lakehouse and Serve It](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%204.md) |
+
+> **Example notebooks:** ready-to-import `.ipynb` files for the Silver, AI, and Gold goals are in the [`Notebooks/`](../Notebooks/) folder — see the [Notebooks README](../Notebooks/README.md).
 
 ---
 

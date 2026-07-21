@@ -45,3 +45,7 @@ https://learn.microsoft.com/en-us/azure/databricks/dbfs/mounts
 Access ADLS using ABFSS (Recommended)
 https://learn.microsoft.com/en-us/azure/databricks/connect/storage/azure-storage
 
+
+---
+
+**Navigation:** [&larr; Previous: Goal 1 &mdash; Ingest SQL to ADLS (Parquet)](Databricks%20-%20Goal%201.md) &middot; [Next: Goal 3 &mdash; Analyze Using SQL &rarr;](Databricks%20-%20Goal%203.md)

@@ -21,3 +21,7 @@ Create ADLS Shortcut in Fabric
 https://learn.microsoft.com/en-us/fabric/onelake/create-adls-shortcut
 Lakehouse Shortcuts Overview
 https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-shortcuts
+
+---
+
+**Navigation:** [&larr; Previous: Goal 5 &mdash; Add AI Agent Layer](Databricks%20-%20Goal%205.md) &middot; [Next: Goal 7 &mdash; Model & Build a Report / Dashboard &rarr;](Databricks%20-%20Goal%207.md)

@@ -23,3 +23,7 @@ Our coaches will be moving around the room all day. If you get stuck, raise your
 2. **Transform Data.** Use Notebooks to build out Silver Lakehouse.
 3. **Use AI to discover insights.** This can be anomaly detection, sentiment analysis, or any AI feature other than Copilot. We will transform semistructured files to gather intelegence for our project.
 4. **Build a Gold Lakehouse.** You will build Materlized Views, Semantic Models and feed them into Data Agents an Ontology. 
+
+---
+
+**Navigation:** [Documents Home](README.md) &middot; [Next: Architecture &rarr;](MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Architecture.pdf)

@@ -57,3 +57,7 @@ https://learn.microsoft.com/en-us/azure/databricks/generative-ai/vector-search
 Lakehouse AI Overview
 https://learn.microsoft.com/en-us/azure/databricks/lakehouse-ai/
 
+
+---
+
+**Navigation:** [&larr; Previous: Goal 4 &mdash; Build Curated Tables (Silver & Gold)](Databricks%20-%20Goal%204.md) &middot; [Next: Goal 6 &mdash; Mirror to Microsoft Fabric &rarr;](Databricks%20-%20Goal%206.md)

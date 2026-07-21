@@ -65,3 +65,7 @@ Description: Materialized lake views let you define transformations in SQL and p
 
 - [What are materialized lake views in Microsoft Fabric?](https://learn.microsoft.com/fabric/data-engineering/materialized-lake-views/overview-materialized-lake-view)
 
+
+---
+
+**Navigation:** [&larr; Previous: Goal 1 &mdash; Ingest (Bronze)](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%201.md) &middot; [Next: Goal 3 &mdash; AI Insights &rarr;](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md)

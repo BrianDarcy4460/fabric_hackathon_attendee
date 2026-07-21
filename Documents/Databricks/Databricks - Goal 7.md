@@ -106,3 +106,7 @@ Direct Lake semantic model
 Drill-through / tooltip for depth
 
 
+
+---
+
+**Navigation:** [&larr; Previous: Goal 6 &mdash; Mirror to Microsoft Fabric](Databricks%20-%20Goal%206.md) &middot; [Databricks Home](README.md)

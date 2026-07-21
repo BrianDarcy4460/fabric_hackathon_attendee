@@ -116,3 +116,7 @@ Participants should end with:
 - Drill-through and tooltip pages for depth.
 
 
+
+---
+
+**Navigation:** [&larr; Previous: Goal 3 &mdash; AI Insights](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%203.md) &middot; [Documents Home](README.md)

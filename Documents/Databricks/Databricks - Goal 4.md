@@ -41,3 +41,7 @@ Convert Parquet to Delta
 https://learn.microsoft.com/en-us/azure/databricks/delta/convert-to-delta
 Delta Optimization (OPTIMIZE, ZORDER)
 https://learn.microsoft.com/en-us/azure/databricks/delta/optimizations/file-mgmt
+
+---
+
+**Navigation:** [&larr; Previous: Goal 3 &mdash; Analyze Using SQL](Databricks%20-%20Goal%203.md) &middot; [Next: Goal 5 &mdash; Add AI Agent Layer &rarr;](Databricks%20-%20Goal%205.md)

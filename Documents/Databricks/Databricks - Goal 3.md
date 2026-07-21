@@ -28,3 +28,7 @@ https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions
 Dashboards (for demo visuals)
 https://learn.microsoft.com/en-us/azure/databricks/sql/dashboards/
 
+
+---
+
+**Navigation:** [&larr; Previous: Goal 2 &mdash; Register Data in Unity Catalog](Databricks%20-%20Goal%202.md) &middot; [Next: Goal 4 &mdash; Build Curated Tables (Silver & Gold) &rarr;](Databricks%20-%20Goal%204.md)

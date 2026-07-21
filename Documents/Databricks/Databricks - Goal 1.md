@@ -51,3 +51,7 @@ https://learn.microsoft.com/en-us/azure/databricks/connect/storage/azure-storage
 Use ADLS Gen2 with Databricks (end-to-end example)
 https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-databricks-spark
 
+
+---
+
+**Navigation:** [Databricks Home](README.md) &middot; [Next: Goal 2 &mdash; Register Data in Unity Catalog &rarr;](Databricks%20-%20Goal%202.md)

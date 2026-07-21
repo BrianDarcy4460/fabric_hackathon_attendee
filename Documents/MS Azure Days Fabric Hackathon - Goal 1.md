@@ -70,3 +70,7 @@ Set up takes ~10 minutes. Data starts appearing automatically in your Lakehouse.
 4. Select Connect
 5. Select Connect
 6. Select Create Mirrored database
+
+---
+
+**Navigation:** [&larr; Previous: Architecture](MS%20Azure%20Days%20Fabric%20Hackathon%20-%200%20-%20Architecture.pdf) &middot; [Next: Goal 2 &mdash; Silver Lakehouse &rarr;](MS%20Azure%20Days%20Fabric%20Hackathon%20-%20Goal%202.md)

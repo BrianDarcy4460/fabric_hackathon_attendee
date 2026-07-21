@@ -18,7 +18,7 @@ you are encouraged to adapt them to your own data and ideas.
 | Notebook | What it does |
 | --- | --- |
 | `1 - Normalize SIS to Silver Lakehouse.ipynb` | Reads the Bronze SIS mirror (Azure SQL mirrored into OneLake), conforms 11 tables to `snake_case`, enforces primary keys, and writes managed Delta dimensions/facts to `SilverLakehouse` (`dbo` schema). |
-| `2 - Transform Grad Exams to Silver Lakehouse.ipynb` | Reads the Bronze Graduate Exams mirror (Cosmos), flattens the nested `undergradContext`, explodes `relevantCourses[]`, and writes `dbo.grad_exam_result` and `dbo.grad_exam_relevant_course`. |
+| `2 - Transform Grad Exams to Silver Lakehouse.ipynb` | **Copilot-guided (prompts, not answers).** A discovery notebook: each step gives a prompt to paste into Fabric's in-notebook Copilot, which writes the code to read the Bronze Graduate Exams mirror (Cosmos), flatten `undergradContext`, explode `relevantCourses[]`, and write `dbo.grad_exam_result` and `dbo.grad_exam_relevant_course`. |
 
 ## AI — Discover Insights (Goal 3)
 
